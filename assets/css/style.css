@@ -233,6 +233,7 @@ input[type=submit] {
   #container {
     height: 100%;
   }
+  
   nav {
     width: 100%;
     text-align: center;
@@ -243,5 +244,39 @@ input[type=submit] {
   .auth-image {
     width:100%;
     clear:left;
+  }
+
+  .work {
+    width: 100%;
+    margin: auto;
+  }
+
+  #contact-form {
+    width:100%;
+    margin-left: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  #masthead {
+    position: static;
+    width: 100%;
+  }
+
+  nav {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+
+  #masthead {
+    position: static;
+    width: 100%;
+  }
+
+  nav {
+    margin-right: 20px;
   }
 }
